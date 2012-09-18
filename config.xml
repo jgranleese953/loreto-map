@@ -14,4 +14,8 @@ A application to show a Map of Loreto College College
 James Granleese
 </author>
 
+<icon>
+    <icon src="icon.png" />
+</icon>
+
 </widget>
