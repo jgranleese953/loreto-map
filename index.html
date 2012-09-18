@@ -1,0 +1,831 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Loreto College Coleraine</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="LoretoApp.css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="phonegap.js"></script>
+<style>
+		img.fullscreen {
+			max-height: 100%;
+			max-width: 100%;
+		}		
+	</style>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Loreto College Coleraine</h1>
+	</div>
+	<div data-role="content" data-theme="a">
+<a href="#Someone" data-role="button">Looking for Someone?</a>
+<a href="#Somewhere" data-role="button">Looking for Somewhere?</a>
+<a href="#Toilet" data-role="button">Toilets?</a>
+<a href="#Map" data-role="button">Map of the School</a>		
+</div>
+<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+</ul>
+
+<div data-role="page" id="Someone">
+	<div data-role="header">
+    <a href="index.html" data-icon="home">Home</a>
+		<h1>Who are you looking for?</h1>
+	</div>
+    <div data-role="content" data-theme="a">
+		<div data-role="collapsible">
+   <h3>Mr?</h3>
+   <p><ul data-role="listview" data-filter="true" >
+	<li><a href="#AR2">Mr Cunning</a></li>
+	<li><a href="#PE">Mr Byrne</a></li>
+	<li><a href="#HI1">Mr Murphy</a></li>
+    <li><a href="#GG1">Mr Shaw</a></li>
+    <li><a href="#CL1">Mr Scullion</a></li>
+    <li><a href="#ChemPrep">Mr Montgomery</a></li>
+    <li><a href="#Tech Block">Mr McKay</a></li>
+    <li><a href="#Tech Block">Mr Murtagh</a></li>
+    <li><a href="#Tech Block">Mr O'Hara</a></li>
+    <li><a href="#EC1">Mr McGouran</a></li>
+    <li><a href="#HI3">Mr Harkin</a></li>
+    <li><a href="#CS2">Mr Rice</a></li>
+    <li><a href="#VP1">Mr Gallagher (VP)</a></li>
+    <li><a href="#CS1">Mr Elgin</a></li>
+    <li><a href="#MC1">Mr Gillespie</a></li>
+    <li><a href="#PhyPrep">Mr Otterson</a></li>
+    <li><a href="#RE1">Mr Conroy</a></li>
+    <li><a href="#Headmaster">Mr James (Headmaster)</a></li>
+</ul></p>
+</div>
+	<div data-role="collapsible">
+   <h3>Ms/Mrs?</h3>
+   <p><ul data-role="listview" data-filter="true">
+   <li><a href="#AR1">Mrs McGill</a></li></p>
+   <li><a href="#BL1">Mrs G Doherty</a></li>
+   <li><a href="#CL3">Miss McErlean</a></li>
+   <li><a href="#BL2">Ms Mullan</a></li>
+   <li><a href="#BL3">Mrs McBroom</a></li>
+   <li><a href="#BL3">Mrs Young</a></li>
+   <li><a href="#CareerOffice">Miss Flannelly</a></li>
+   <li><a href="#EC2">Mrs McNicholl</a></li>
+   <li><a href="#CL2">Mrs Nugent</a></li>
+   <li><a href="#VP2">Miss Toner (VP)</a></li>
+   <li><a href="#EN4">Mrs Little</a></li>
+   <li><a href="#EN2">Mrs C Doherty</a></li>
+   <li><a href="#EN5">Mrs McCool</a></li>
+   <li><a href="#DT">Mrs McEwan</a></li>
+   <li><a href="#EN1">Mrs Pepin</a></li>
+   <li><a href="#FR2">Mrs Mullan</a></li>
+   <li><a href="#GG2">Miss Curry</a></li>
+   <li><a href="#GG3">Mrs McGreevy</a></li>
+   <li><a href="#HI2">Mrs McGoldrick</a></li>
+   <li><a href="#HE1">Mrs S McNicholl</a></li>
+   <li><a href="#HE2">Mrs McAleese</a></li>
+   <li><a href="#HE Tech">Mrs Ceighton</a></li>
+   <li><a href="#Library">Mrs McDonnell</a></li>
+   <li><a href="#MA1">Mrs O'Kane</a></li>
+   <li><a href="#MA4">Mrs Diamond</a></li>
+   <li><a href="MA3">Mrs McConnell</a></li>
+   <li><a href="#MC2">Miss Stewart</a></li>
+   <li><a href="#PE">Mrs McCullough</a></li>
+   <li><a href="#PE">Ms Wilson</a></li>
+   <li><a href="#PL1">Mrs Close</a></li>
+   <li><a href="#PL2">Mrs Brolly</a></li>
+   <li><a href="#RE3">Mrs McCarry</a></li>
+   <li><a href="#GR3">Miss Galbraith</a></li>
+   <li><a href="#RE2">Mrs Sweeney</a></li>
+</ul></p>
+	</div>
+    </ul>
+    </div>
+	<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="Somewhere">
+	<div data-role="header">
+    <a href="index.html" data-icon="home">Home</a>
+		<h1>Looking for Somewhere?</h1>
+	</div>
+	<div data-role="content" data-theme="a">
+    <div data-role="collapsible">
+   <h3>Others</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#Assembly">Assembly Hall</a></li>
+        <li><a href="#Office">Main Office</a></li>
+        <li><a href="#VP1">VP Office 1</a></li>
+        <li><a href="#VP1">VP Office 2</a></li>
+        <li><a href="#SickBay">Sick Bay</a></li>
+        <li><a href="#Staffroom">Staff Room</a></li>
+        <li><a href="#MainStudy">Main Study</a></li>
+        <li><a href="#SS">Senior Study</a></li>
+        <li><a href="#Canteen">Canteen</a></li>
+        <li><a href="#Library">Library</a></li>
+   </ul></p>
+</div>	
+		<div data-role="collapsible">
+   <h3>Art and Design</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#AR1">Art Room 1</a></li>
+        <li><a href="#AR2">Art Room 2</a></li>
+        <li><a href="#Pottery">Pottery Room</a></li>
+   </ul></p>
+</div>
+   <div data-role="collapsible">
+   <h3>Biology</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#BL1">Biology 1</a></li>
+        <li><a href="#BL2">Biology 2</a></li>
+        <li><a href="#BL3">Biology 3</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Careers</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#CareerOffice">Careers Office</a></li>
+       <li><a href="#CareerLibrary">Careers Library</a></li>
+        <li><a href="#CR1">Careers 1</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Chemistry</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#CH1">Chemistry 1</a></li>
+        <li><a href="#CH2">Chemistry 2</a></li>
+        <li><a href="#CH3">Chemistry 3</a></li>
+        <li><a href="#ChemPrep">Chemistry Prep Room</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Technology</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#Tech Block">Technology Block</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Economics</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#EC1">Economics 1</a></li>
+        <li><a href="#EC2">Economics 2</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>English</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#EN1">English 1</a></li>
+        <li><a href="#EN2">English 2</a></li>
+        <li><a href="#EN3">English 3</a></li>
+        <li><a href="#EN4">English 4</a></li>
+        <li><a href="#EN5">English 5</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>French</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#FR2">French 2</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Geography</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#GG1">Geography 1</a></li>
+        <li><a href="#GG2">Geography 2</a></li>
+        <li><a href="#GG3">Geography 3</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>History</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#HI1">History 1</a></li>
+        <li><a href="#HI2">History 2</a></li>
+        <li><a href="#HI3">History 3</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Home Economics</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#HE1">HE 1</a></li>
+        <li><a href="#HE2">HE 2</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>ICT</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#CS1">CS1</a></li>
+        <li><a href="#CS2">CS2</a></li>
+        <li><a href="#CS3">CS3</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Mathematics</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#MA1">Maths 1</a></li>
+        <li><a href="#MA2">Maths 2</a></li>
+        <li><a href="#MA3">Maths 3</a></li>
+        <li><a href="#MA4">Maths 4</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Music</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#MC1">Music 1</a></li>
+        <li><a href="#MC2">Music 2</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>PE</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#PE Block">PE Block</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Physics</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#PL1">Physics 1</a></li>
+        <li><a href="#PL2">Physics 2</a></li>
+        <li><a href="#PhyPrep">Physics Prep Room</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>RE</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#RE1">RE 1</a></li>
+        <li><a href="#RE2">RE 2</a></li>
+        <li><a href="#RE3">RE 3</a></li>
+	</ul></p>
+</div>
+<div data-role="collapsible">
+<h3>Drama</h3>
+   <p><ul data-role="listview">
+   		<li><a href="#DT">Drama Theatre</a></li>
+	</ul></p>
+</div>
+</div>
+	<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Toilet">
+	<div data-role="header">
+    <a href="index.html" data-icon="home">Home</a>
+		<h1>Toilets?</h1>
+	</div>
+<div data-role="content" data-theme="a" div data-role="collapsible">	
+		<a href="#page5" data-role="button">Ground Floor?</a>
+        <a href="#page6" data-role="button">First Floor?</a>
+	</div>
+	<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+		<h1>Toilets?</h1>
+	</div>
+	<div data-role="content" data-theme="a">	
+		<a href="#GMale" data-role="button">Male?</a>
+        <a href="#GFemale" data-role="button">Female?</a>
+	</div>
+	<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+		<h1>Toilets?</h1>
+	</div>
+	<div data-role="content" data-theme="a">	
+        <a href="#1Female" data-role="button">Female?</a>
+	</div>
+	<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+
+<div data-role="page" id="GMale">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/MalToilets.jpg" alt="Ground Male Toilets" />
+</div>
+	</div>
+    
+    <div data-role="page" id="GFemale">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+   <img src="Ground/FemToilets.jpg" alt="Ground Floor Female Toilets" />
+</div>
+	</div>
+    
+    <div data-role="page" id="1Female">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/FemToilets.jpg" alt="First Floor Female Toilets" />
+</div>
+	</div>
+
+<div data-role="page" id="Map">
+	<div data-role="header">
+    <a href="index.html" data-icon="home">Home</a>
+		<h1>Map of the School</h1>
+	</div>
+	<div data-role="content" data-theme="a">
+    <div style="position: absolute; top: 50%; margin-top: -1.2em;">	
+		<a href="#Ground" data-role="button">Ground Floor?</a>
+        <a href="#First" data-role="button">First Floor?</a>	
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4>Cruci Dum Spiro Fido</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Ground">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Ground.jpg" alt="Ground Floor" />
+</div>
+	</div>
+    
+    <div data-role="page" id="First">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/First.jpg" alt="First Floor" />
+</div>
+	</div>
+    
+    <div data-role="page" id="PE">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/PE.jpg" alt="PE Block" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EN5">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/EN5.jpg" alt="English 5" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CL3">
+	<div data-role="content">	
+    <img src="Ground/CL3.jpg" alt="Chemistry 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Tech Block">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Tech Block.jpg" alt="Technology Block" />
+</div>
+	</div>
+    
+    <div data-role="page" id="AR2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/AR2.jpg" alt="Art Room 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="AR1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/AR1.jpg" alt="Art Room 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Pottery">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Pottery Room.jpg" alt="Pottery Room" />
+</div>
+	</div>
+    
+    <div data-role="page" id="StaffRoom">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Staffroom.jpg" alt="Staff Room" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Staffstudy">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Staff Study.jpg" alt="Staff Study" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Payphone">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Payphone.jpg" alt="Payphone" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CareerOffice">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Career Office.jpg" alt="Careers Office" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CareerLibrary">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Careers Library.jpg" alt="Careers Library" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CR1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/CR1.jpg" alt="Careers Room 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="AR1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/AR1.jpg" alt="Art Room 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="GR3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/GR3.jpg" alt="German 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="RE3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/RE3.jpg" alt="RE 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="RE2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/RE2.jpg" alt="RE 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="RE1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/RE1.jpg" alt="RE 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Headmaster">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/HEadmaster.jpg" alt="Headmaster's Office" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Bursar">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Bursar.jpg" alt="Bursar's Office" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Secretary">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Secretary.jpg" alt="Secretary" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Office">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Office.jpg" alt="Main Office" />
+</div>
+	</div>
+    
+    <div data-role="page" id="SickBay">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Sick Bay.jpg" alt="Sick Bay" />
+</div>
+	</div>
+    
+    <div data-role="page" id="BL2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/BL2.jpg" alt="Biology 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="BL1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/BL1.jpg" alt="Biology 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="BL3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/BL3.jpg" alt="Biology 3" />
+</div>
+	</div>
+    
+   <div data-role="page" id="CL1">
+   <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/CL1.jpg" alt="Chemistry 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CL2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/CL2.jpg" alt="Chemistry 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="ChemPrep">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Chem Prep Room.jpg" alt="Chemistry Prep Room" />
+</div>
+	</div>
+    
+    <div data-role="page" id="PL1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/PL1.jpg" alt="Physics 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="PL2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/PL2.jpg" alt="Physics 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="PhyPrep">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Phy Prep Room.jpg" alt="Physics Prep Room" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CS3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/CS3.jpg" alt="CS3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EN2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/EN2.jpg" alt="English 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EN1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/EN1.jpg" alt="English 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EN3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/EN3.jpg" alt="English 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EN4">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/EN4.jpg" alt="English 4" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MC1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/MC1.jpg" alt="Music 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MC2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/MC2.jpg" alt="Music 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="DT">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/DT.jpg" alt="Drama Theatre" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Canteen">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Canteen.jpg" alt="Canteen" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Assembly">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/Assembly.jpg" alt="Assembly Hall" />
+</div>
+	</div>
+    
+    <div data-role="page" id="VP1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/VP1.jpg" alt="VP's Office 1" />
+</div>
+	</div>
+    
+     <div data-role="page" id="VP2">
+     <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="Ground/VP2.jpg" alt="VP's Office 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="GG1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/GG1.jpg" alt="Geography 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="GG2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/GG2.jpg" alt="Geography 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="GG3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/GG3.jpg" alt="Geography 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CS2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/CS2.jpg" alt="CS2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="CS1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/CS1.jpg" alt="CS1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EC1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/EC1.jpg" alt="Economics 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="EC2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/EC2.jpg" alt="Economics 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="HI3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/HI3.jpg" alt="History 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="HI2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/HI2.jpg" alt="History 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="HI1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/HI1.jpg" alt="History 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="HE2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/HE2.jpg" alt="HE 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="HE1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/HE1.jpg" alt="HE 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="HE Tech">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/HE Tech.jpg" alt="HE Tech" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MA4">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/MA4.jpg" alt="Maths 4" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MA3">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/MA3.jpg" alt="Maths 3" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MA2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/MA2.jpg" alt="Maths 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MA1">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/MA1.jpg" alt="Maths 1" />
+</div>
+	</div>
+    
+    <div data-role="page" id="FR2">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/FR2.jpg" alt="French 2" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Library">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/Library.jpg" alt="Library" />
+</div>
+	</div>
+    
+    <div data-role="page" id="SS">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/SS.jpg" alt="Senior Study" />
+</div>
+	</div>
+    
+    <div data-role="page" id="Commom">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/Common Room.jpg" alt="Common Room" />
+</div>
+	</div>
+    
+    <div data-role="page" id="MainStudy">
+    <a href="index.html" data-rel="back" data-icon="back">Back</a>
+	<div data-role="content">	
+    <img src="First/Main Study.jpg" alt="Main Study" />
+</div>
+	</div>
+
+</body>
+</html>
